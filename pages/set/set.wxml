@@ -1,0 +1,47 @@
+<!--pages/set/set.wxml-->
+<!-- <ad unit-id="adunit-abee61ce402f3b8c" ad-type="grid" grid-opacity="0.8" grid-count="5" ad-theme="white"></ad> -->
+<view class="container">
+  <!-- <view class="adContainer">
+    <ad unit-id="adunit-abee61ce402f3b8c" ad-type="grid" grid-opacity="0.8" grid-count="5" ad-theme="white"></ad>
+  </view> -->
+  <view class="modules_box">
+    <view class="modules_icon_box">
+      <image class="modules_icon" mode="scaleToFill" src="/images/icon_set_sound_60.png"></image>
+    </view>
+    <view class="modules_title_box">声音</view>
+    <view class="modules_switch_box">
+      <switch bindchange="switchChangeSound" checked="{{custom_sound_default}}" class="modules_switch" type="switch"></switch>
+    </view>
+  </view>
+
+
+  <view class="modules_box">
+    <view class="modules_icon_box">
+      <image class="modules_icon" mode="scaleToFill" src="/images/icon_set_fast_select_60.png"></image>
+    </view>
+    <view class="modules_title_box">快速决定</view>
+    <view class="modules_switch_box">
+      <switch bindchange="switchChangeFastSelect" checked="{{custom_fast_select_default}}" class="modules_switch" type="switch"></switch>
+    </view>
+  </view>
+
+
+  <view class="modules_box">
+    <view class="modules_icon_box" >
+      <image class="modules_icon" mode="scaleToFill" src="/images/icon_set_no_repetition_select_60.png"></image>
+    </view>
+    <view class="modules_title_box">不重复抽取</view>
+    <view class="modules_switch_box">
+      <switch bindchange="switchChangeNoRepetitionSelect" checked="{{custom_no_repetition_select_default}}" class="modules_switch" type="switch"></switch>
+    </view>
+  </view>
+  <view class="adContainer">
+    <!-- <ad unit-id="adunit-74b5ced293ada044" ad-intervals="30"></ad> -->
+    <!-- <ad unit-id="adunit-65a96c0ac6528675" ad-type="video" ad-theme="white"></ad> -->
+    <!-- <ad unit-id="adunit-abee61ce402f3b8c" ad-type="grid" grid-opacity="0.8" grid-count="5" ad-theme="white"></ad> -->
+    <!-- <ad-custom unit-id="adunit-b893104411696f83"></ad-custom> -->
+  </view>
+  <!-- <view class="adContainer">
+    <ad unit-id="adunit-302ff306f19141cb" ad-intervals="30"></ad>
+  </view> -->
+</view>
