@@ -178,7 +178,16 @@ var page = {
          }
       })
    },
-
+   goVipAds(){
+    wx.navigateToMiniProgram({
+      appId: 'wxe9714e742209d35f',
+      path: 'pages/index/index?$route=pages%2Findex%2Findex&tra_from=adp%3AC01V4lkkvw2uzug2%3A%3Amig_code%3Ac146%3Aac014lkkvw00008zaaye2mkyevbrekxu&chl_type=wxk',
+      success(res) {
+        console.log(res)
+        // 打开成功
+      }
+    })
+   },
    //分享到朋友圈
    generate() {
       wx.showLoading({

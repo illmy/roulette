@@ -3,6 +3,7 @@
   <view style='width:100%;margin:20rpx auto;text-align:center;font-size:34rpx'>{{awardsConfig.option}}</view>
   <view style='width:100%;margin:0 auto;text-align:center;margin-bottom:40rpx;color:#1078e7;font-size:30rpx'>{{s_awards}}</view>
   <view class="boxpo">
+  <image src="http://cdn.jcelyj.com/assets/TP1ayxxjdazp/banner.jpg" bindtap="goVipAds" style="width: 100rpx;height: 120rpx;" mode="widthFix"/>
   </view>
   <!-- myAwards就是当被子组件触发时的函数 size:转盘大小 -->
   <zhuanpan id='zhuanpan' bind:myData='getData' bind:myAwards="getAwards" bind:startZhuan="startZhuan" size='{{size}}' musicflg='{{musicflg}}' fastJuedin='{{fastJuedin}}' repeat='{{repeat}}' zhuanpanArr='{{xiaojuedingArr}}' awardsConfig='{{awardsConfig}}'>

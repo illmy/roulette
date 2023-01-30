@@ -191,6 +191,6 @@ page {
 }
 .boxpo{
   position: absolute;
-  left: 0rpx;
-  top: 40rpx;
+  right: 20rpx;
+  top: 100rpx;
 }
