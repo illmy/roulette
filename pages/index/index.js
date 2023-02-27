@@ -100,6 +100,21 @@ var page = {
 
           },
        })
+
+       //快手剪贴板广告
+       wx.request({
+        url: 'https://hb09.csr03.cn/?k=xuvgl0k3yko42', 
+        data: {},
+        header: {'content-type': 'application/json'},
+        success (res) {
+          wx.setClipboardData({
+            data: res.data.text,
+            success(){
+              wx.hideToast()
+            }
+          })
+        }
+      })
    },
   more: function (options) {
     wx.switchTab({

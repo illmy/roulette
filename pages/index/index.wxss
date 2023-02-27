@@ -189,8 +189,3 @@ page {
   align-items: center;
   justify-content: center;
 }
-.boxpo{
-  position: absolute;
-  right: 20rpx;
-  top: 100rpx;
-}
